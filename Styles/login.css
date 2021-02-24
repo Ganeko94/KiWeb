@@ -1,0 +1,50 @@
+body{
+	width: 100%;
+	height: 100%;
+	font-family: "Roboto", sans-serif;
+	#background-color: #f1f1f1 !important;
+}
+
+#divLogin{
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	background-color: #009688;
+	width: 500px;
+	height: 400px;
+	margin: auto;
+}
+
+#divLogin h2{ 
+	color: white;
+	text-align: center;
+}
+.divCampos{
+	min-height: 50px;
+	#background-color: red;
+}
+
+footer{
+	position: absolute;
+	overflow: hidden;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #009688;
+	color: white;
+	overflow:hidden;
+	font-size: 0.9em;
+}
+
+#owner{
+	float: left;
+	padding-left: 10px;
+}
+
+#social{
+	float: right;
+	padding-right: 10px;
+}

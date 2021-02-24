@@ -1,0 +1,85 @@
+body{
+	font-family: "Roboto", sans-serif
+}
+
+#header{
+	text-align:center;
+	color: #009688;
+	font-size:2em;
+	background-color: #FFFFFF;
+}
+
+#sidebar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 100%;
+	background-color: #009688;
+}
+
+#sidebarLogo{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;	
+	color: white;
+	border-bottom: 2px solid black;
+}
+
+#sidebarLogo a{
+	text-decoration: none;
+	font-family: comic;
+	font-size: 1.7em;
+}
+
+#sidebarList{
+	
+}
+
+footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+#owner{
+	float: left;
+}
+
+#social{
+	float: right;
+}
+
+#content{
+	overflow: auto;
+	width: 80%;
+	height: 450px;
+	background-color: #009688;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#content p{
+	height: 50px;
+}
+
+div.action-row{
+	margin: 20px 0;
+	overflow: auto;
+}
+
+div.action-row a{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: red;
+}
+
+.action{
+	height: 150px;
+	width: 200px;
+	line-height: 150px;
+	background-color: white;
+	float: left;
+	margin: 0 2.5%;
+}
+
