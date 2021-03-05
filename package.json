@@ -1,0 +1,23 @@
+{
+  "name": "kiweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ganeko94/KiWeb.git"
+  },
+  "author": "Ganeko Ferreira de Luis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ganeko94/KiWeb/issues"
+  },
+  "homepage": "https://github.com/Ganeko94/KiWeb#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
