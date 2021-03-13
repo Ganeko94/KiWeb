@@ -1,3 +1,6 @@
+@import '../fonts/roboto-condensed-fontface.css';
+@import '../fonts/material-design-icons.css';
+@import '../fonts/roboto-fontface.css';
 /***** Estilos comunes *****/
 
 body{
@@ -18,32 +21,43 @@ body{
 
 /* Sidebar */
 
-#sidebar{
+.sidebar{
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 200px;
+	min-width: 200px;
 	height: 100%;
 	background-color: #009688;
+	border-right: 1px solid darkgray;
 }
 
-#sidebarLogo{
-	height: 50px;
-	line-height: 50px;
+.sidebar-logo{
+	height: 4em;
+	line-height: 4em;
 	text-align: center;	
 	color: white;
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid darkgray;
 }
 
-#sidebarLogo a{
+.sidebar-logo a{
 	text-decoration: none;
-	font-family: comic;
 	font-size: 1.7em;
 }
 
-/*#sidebarList{
-	
-}*/
+.sidebar-list {
+	padding: 0;
+}
+
+.sidebar-list li {
+	width: 100%;
+	list-style: none;
+	height: 30px;
+	min-height: 5em;
+	line-height: 5em;
+	text-align: center;
+	border-bottom: 1px solid darkgray;
+	background-color: white;
+}
 
 /* Footer */
 

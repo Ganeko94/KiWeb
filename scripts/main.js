@@ -11,14 +11,14 @@ function switchDarkMode() {
     alert("Activamos/desactivamos el dark mode");
 }
 
-function loadFooter() {
-    $("footer").load("./webparts/footer.html");
-}
-
 function loadHeader(){
     $("header").load("./webparts/header.html");
 }
 
-function loadHeader(){
+function loadSidebar(){
     $("#sidebar").load("./webparts/sidebar.html");
+}
+
+function loadFooter() {
+    $("footer").load("./webparts/footer.html");
 }
