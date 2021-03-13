@@ -82,18 +82,48 @@ div.login-section{
     left: 0;
     right: 0;
 	background-color: #009688;
-	width: 500px;
-	height: 400px;
+	min-width: 400px;
+    width: 500px;
+	height: 300px;
+    min-height: 300px;
 	margin: auto;
 }
 
 div.login-section h2{ 
 	color: white;
 	text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid darkgrey;
 }
-.field-section{
-	min-height: 50px;
-	/*background-color: red;*/
+.field-section {
+	min-height: 4em;
+    line-height: 4em;
+    margin: 1em;
+    color: white;
+}
+.field-section-label {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+.field-section-input {
+	width: 60%;
+    float: left;
+}
+.buttons-section {
+    width: 20%;
+    min-width: 50px;
+    min-height: 2em;
+    line-height: 2em;
+    margin: 30px auto;
+    position: relative;
+    text-align: center;
+}
+
+.buttons-section input {
+    height: 2em;
+    margin: 0 auto;
 }
 
 /* Index */

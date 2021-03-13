@@ -2,3 +2,7 @@
 $(function() {
     loadFooter();
 });
+
+function login(){
+    alert("Hacemos login");
+}
