@@ -1,50 +1,37 @@
 <!DOCTYPE html>
 <html>
-<title>Login</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="/Styles/login.css">
-<link rel="icon" type="image/x-icon" href="/Imagenes/favicon.ico">
-<script type="text/javascript" src="/Scripts/jQuery/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="/Scripts/index.js"></script>
+	<head>
+		<title>Login</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/styles/main.css">
+		<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+		<script type="text/javascript" src="/scripts/jQuery/jquery-3.6.0.js"></script>
+		<script type="text/javascript" src="/scripts/main.js"></script>
+		<script type="text/javascript" src="/scripts/login.js"></script>
+	<head>
+	<body>
+		<div class="login-section">
+			<h2>Login</h2>
+			<div class="field-section">
+				<label for="usuario">Usuario:</label>	
+				<input type="text" id="usuario" name="usuario">
+			</div>
+			
+			<div class="field-section">
+				<label for="password">Contraseña:</label>
+				<input type="text" id="password" name="password">
+			</div>
+			
+			<div id="botones">
+				<input type="button" id="entrar" name="entrar" value="Entrar">
+			</div>
+		</div>
 
-<body>
-  
-	<div id="divLogin">
-		<h2>Login</h2>
-		<div id="divUsuario" class="divCampos">
-			<label for="usuario">Usuario:</label>	
-			<input type="text" id="usuario" name="usuario">
-		</div>
-		
-		<div id="divPassword" class="divCampos">
-			<label for="password">Contraseña:</label>
-			<input type="text" id="password" name="password">
-		</div>
-		
-		<div id="botones">
-			<input type="button" id="entrar" name="entrar" value="Entrar">
-		</div>
-		
-		<a href="index.html">Acceder al index.html</a>
-	</div>
-	  
+		<!-- Footer -->
+		<footer></footer>
 
-	<footer class="w3-container w3-teal w3-center w3-margin-top">
-		<div id="owner">
-			<p>Owner - Ganeko Ferreira de Luis</p>
-		</div>
-		<div id="social">
-			<p>Find me on social media - 
-				<i class="fa fa-instagram w3-hover-opacity"></i>
-				<i class="fa fa-twitter w3-hover-opacity"></i>
-				<i class="fa fa-linkedin w3-hover-opacity"></i>
-			</p>
-		</div>
-	  
-	</footer>
-
-</body>
+	</body>
 </html>
