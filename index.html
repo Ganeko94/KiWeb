@@ -3,55 +3,53 @@
 <title>Admin</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="/Styles/main.css">
-<link rel="stylesheet" href="/Styles/font-awesome/css/all.css">
+<link rel="stylesheet" href="/styles/main.css">
+<link rel="stylesheet" href="/styles/font-awesome/css/all.css">
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-<script type="text/javascript" src="/Scripts/jQuery/jquery-3.6.0.js"></script>
-<script type="text/javascript" src="/Scripts/main.js"></script>
-<script type="text/javascript" src="/Scripts/index.js"></script>
-<body class="w3-light-grey">
+<script type="text/javascript" src="/scripts/jQuery/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="/scripts/main.js"></script>
+<script type="text/javascript" src="/scripts/index.js"></script>
+	<body class="w3-light-grey">
 
-<!-- El sidebar -->
-	<div id="sidebar" class="sidebar"></div>
+		<!-- El sidebar -->
+		<div id="sidebar" class="sidebar"></div>
 
-	<!-- Page Container -->
-	<div class="w3-content w3-margin-top" style="max-width:1400px;">
+		<!-- Page Container -->
+		<div class="contenido">
 
-	<!-- The Grid -->
-	<div class="w3-row-padding">
-	
-		<div id="header">
-			<p>Administración Central</p>
-		</div>
-		
-		<div id="content">
-			<p>Aqui ponemos las acciones principales que queremos hacer con la raspberry pi</p>
+			<!-- The Grid -->
+			<div class="w3-row-padding">
 			
-			<div id="actions1" class="action-row">
-				<a class="action" href="/Games">Game Development</a>
-				<a class="action" href="/phpmyadmin/index.php">phpMyAdmin</a> 
-				<a class="action" href="#" onclick="nada()">Subida de documentos</a>
-				<a class="action" href="#">4</a>
+				<div id="header">
+					<p>Administración Central</p>
+				</div>
+				
+				<div id="content">
+					<p>Aqui ponemos las acciones principales que queremos hacer con la raspberry pi</p>
+					<!-- Las actions deberian cargar desde un JSON -->
+					<div id="actions1" class="action-row">
+						<a class="action" href="/Games">Game Development</a>
+						<a class="action" href="/phpmyadmin/index.php">phpMyAdmin</a> 
+						<a class="action" href="#" onclick="nada()">Subida de documentos</a>
+						<a class="action" href="#">4</a>
+					</div>
+					
+					<div id="actions2" class="action-row">
+						<a class="action" href="#">5</a>
+						<a class="action" href="#">6</a>
+						<a class="action" href="#">7</a>
+						<a class="action" href="#" onclick="nada()">Reiniciar raspberry</a>
+					</div>
+				</div>
+				
+			<!-- End Grid -->
 			</div>
-			
-			<div id="actions2" class="action-row">
-				<a class="action" href="#">5</a>
-				<a class="action" href="#">6</a>
-				<a class="action" href="#">7</a>
-				<a class="action" href="#" onclick="nada()">Reiniciar raspberry</a>
-			</div>
-		</div>
-		
-	<!-- End Grid -->
-	</div>
 	
-	<!-- End Page Container -->
-	</div>
+		<!-- End Page Container -->
+		</div>
 
-	<!-- footer -->
-	<footer></footer>
+		<!-- footer -->
+		<footer></footer>
 
-
-</body>
+	</body>
 </html>
